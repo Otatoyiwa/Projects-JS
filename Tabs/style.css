@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    min-width: fit-content;
+
+}
+
+.Page {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    min-width: 600px;
+    border-style: solid;
+    background-color: bisque;
+    border-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px bisque;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tabs {
+    align-items: center;
+    justify-content: space-between;
+}
+.tabs>button {
+    border-style: solid;
+    border-radius: 30px;
+    border-color: rgb(216, 138, 36);
+    padding: 15px;
+    margin: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: antiquewhite;
+}
+
+p {
+    
+    max-width: 260px;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+ .tabs_card:not(._active) {
+    display: none;
+ }
