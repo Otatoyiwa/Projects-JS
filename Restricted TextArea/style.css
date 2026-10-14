@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.typing{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 20px;
+    width: 400px;
+    height: fit-content;
+    border-style: solid;
+    border-radius: 20px;
+
+
+}
+.typing._active{
+    border-color: red;
+    color: red;
+}
+
+.num_holder{
+    font-style: italic;
+    font-weight: 400;
+}
+
+input{
+    border-style: none;
+    height: fit-content;
+}
+
