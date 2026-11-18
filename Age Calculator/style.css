@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.Head{
+    display: flex;
+    flex-direction: column;
+    margin: 30vh;
+    padding: 10vh;
+    gap: 1vh;
+   border-style: solid;
+   border-radius: 4vh;
+   background-color: antiquewhite;
+}
+.Head > button{
+    padding: 1vh;
+    border-radius: 4vh;
+    background-color: black;
+    color: aliceblue;
+    font-style: oblique;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+span{
+    font-style: italic;
+    font-size: large;
+}
